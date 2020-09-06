@@ -2,8 +2,8 @@
 
 def count_strings(array)
   count = 0
-  array.count do |string|
-    if string !int
+  array.count do |value|
+    if value.is_a?(String)
       count += 1
   end
 end
